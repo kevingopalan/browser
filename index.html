@@ -52,11 +52,11 @@ input[type=text]::selection {
         <input style="position:absolute; right:5%; background:transparent; border:none; border-radius:3px; color:transparent;" type="submit" onclick="othername();" value = "1" />
         </form>
       </div>
-      <iframe style = "z-index:10;" src = "//bing.com" width = "100%" height = "800px;" frameborder = "0" id="browser"><p>Unable to reach</p></iframe>
+      <iframe style = "z-index:10;" src = "//bing.com" width = "100%" height = "800px;" frameborder = "0" id="bw"><p>Unable to reach</p></iframe>
       <script>
       function othername() {
       var input = document.getElementById("url").value;
-      document.getElementById("browser").src = "https://" + input;
+      document.getElementById("bw").src = "https://" + input;
   }
       <\/script>
 
